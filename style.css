@@ -1,0 +1,54 @@
+body, h1, h2, h3, h4, p, a, ul, li {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+.title-text {
+	text-align: center;
+	font-size: 40px;
+}
+
+.slide {
+	max-width: 800px;
+	margin: 0 auto;
+	padding-top: 125px;
+}
+
+.accordion {
+	display: flex;
+	justify-content: center;
+}
+
+.accordion li {
+	width: 80px;
+	overflow: hidden;
+	padding: 1px 1px 0;
+	cursor: pointer;
+	display: block;
+	box-shadow: 1px 3px 15px #7fc7ff;
+	transition: all 1.5s;
+}
+
+.accordion li:hover {
+	width: 500px;
+	box-shadow: 1px 3px 15px #287233;
+	transition: all 1s;
+}
+
+.accordion li:nth-child(4) {
+	width: 500px;
+}
+
+.accordion:hover li:nth-child(4) {
+	width: 80px;
+}
+
+.accordion li:nth-child(4):hover {
+	width: 500px;
+}
+
+.slide-img {
+	width: 500px;
+}
